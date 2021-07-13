@@ -1,0 +1,36 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.list-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+
+.item-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: silver;
+    margin: 0 auto;
+}
+
+.item-box--active{
+    background-color: red;
+}
+
+.btn-box {
+    border-radius: 50%;
+    padding: 15px;
+    border: none;
+
+}
